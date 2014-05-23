@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="main.js"></script>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+<body>
+    <div align="center" id="container">
+
+        <h1 class="logo">Simularea curcubeului</h1>
+        <p class="sub-logo">
+            Proiect cu sursă deschisă, licențiat sub licență GPL v3: <a href="https://github.com/PhysicsProjects/">Click aici pentru a vedea codul sursă</a>
+        </p>
+
+        <button class="btn btn-primary btn-start btn-large"><i class="icon-play icon-white"></i> Start</button>
+        <button class="btn btn-danger btn-reset btn-large"><i class="icon-remove-sign icon-white"></i> Resetează</button>
+
+        <br />
+
+        <div class="main">
+           <div class="bordered bg"></div>
+
+            <img class="hidden" id="sun" src="img/sun.png">
+            <div class="line hidden" id="firstRay" style="background: white;"></div>
+
+            <!-- 1 -->
+            <div id="ref1" class="hidden">
+                <div class="line" style="background: red;
+                                        margin-left: 780px;
+                                        width: 158px;
+                                        -webkit-transform: rotateZ(5deg);
+                                        -moz-transform: rotateZ(5deg);
+                                        margin-top: 95px;"></div>
+
+                <div class="line" style="background: violet;
+                                        margin-left: 777px;
+                                        width: 176px;
+                                        -webkit-transform: rotateZ(13deg);
+                                        -moz-transform: rotateZ(13deg);
+                                        margin-top: 108px;"></div>
+            </div>
+
+            <!-- 2 -->
+            <div id="ref2" class="hidden">
+                <div class="line" style="background: red;
+                                        margin-left: 822px;
+                                        width: 170px;
+                                        -webkit-transform: rotateZ(110deg);
+                                        -moz-transform: rotateZ(110deg);
+                                        margin-top: 180px;"></div>
+
+                <div class="line" style="background: violet;
+                                        margin-left: 806px;
+                                        width: 176px;
+                                        -webkit-transform: rotateZ(130deg);
+                                        -moz-transform: rotateZ(130deg);
+                                        margin-top: 195px;"></div>
+            </div>
+
+            <!-- 3 -->
+            <div id="ref3" class="hidden">
+                <div class="line" style="background: red;
+                                        margin-left: 783px;
+                                        width: 122px;
+                                        -webkit-transform: rotateZ(124deg);
+                                        -moz-transform: rotateZ(124deg);
+                                        margin-top: 309px;"></div>
+
+                <div class="line" style="background: violet;
+                                        margin-left: 681px;
+                                        width: 176px;
+                                        -webkit-transform: rotateZ(147deg);
+                                        -moz-transform: rotateZ(147deg);
+                                        margin-top: 306px;"></div>
+            </div>
+
+            <!-- 4 -->
+            <div id="ref4" class="hidden">
+                <div class="line" style="background: black;
+                                        margin-left: 820px;
+                                        width: 200px;
+                                        -webkit-transform: rotateZ(147deg);
+                                        -moz-transform: rotateZ(147deg);
+                                        margin-top: 208px;
+                                        opacity: 0.1;"></div>
+
+                <div class="line" style="background: black;
+                                        margin-left: 826px;
+                                        width: 229px;
+                                        -webkit-transform: rotateZ(124deg);
+                                        -moz-transform: rotateZ(124deg);
+                                        margin-top: 165px;
+                                        opacity: 0.1;
+                                        "></div>
+
+                <div style="background: -webkit-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+                            background: -moz-linear-gradient(top, red, orange, yellow, green, blue, indigo, violet);
+                            height: 86px;
+                            margin-top: 72px;" class="colors"></div>
+            </div>
+
+            <div id="circle" class="circle bordered hidden" style="width: 200px; height: 200px"></div>
+
+        </div>
+    </div>
+</body>
+</html>

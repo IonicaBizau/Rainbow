@@ -1,0 +1,93 @@
+@import url("bootstrap/css/bootstrap.css");
+
+a {
+    color: white;
+}
+
+.sub-logo {
+    color: white;
+}
+
+@font-face {
+    font-family: "Kaushan Script";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/font.woff) format('woff');
+}
+
+.logo {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin: 15px;
+    font-size: 48px;
+}
+
+.hidden {
+    opacity: 0.001;
+}
+
+#sun {
+    margin-left: -300px;
+    position: absolute;
+    height: 130px;
+    margin-top: 35px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+}
+
+.bordered {
+    border: 3px solid rgb(0, 255, 102);
+}
+
+#circle {
+    margin-left: 750px;
+    margin-top: 60px;
+}
+
+.line {
+    width: 260px;
+    height: 4px;
+    position: absolute;
+    margin-left: 531px;
+    margin-top: 90px;
+    z-index: 999;
+    border-radius: 2px;
+}
+
+#firstRay {
+    margin-left: 520px;
+    z-index: 999;
+}
+
+body {
+    background: url("img/bg.png");
+}
+
+.colors {
+    width: 20px;
+    height: 200px;
+    position: absolute;
+    background: white;
+    margin-left: 1004px;
+    margin-top: 50px;
+}
+
+.bg {
+    background: -webkit-linear-gradient(top, rgb(179, 231, 255), white);
+    background: -moz-linear-gradient(top, rgb(179, 231, 255), white);
+    position: absolute;
+    width: 720px;
+    height: 340px;
+    margin-left: 332px;
+    margin-top: 25px;
+    box-shadow: 0 0 19px black;
+    border-radius: 2px;
+}
+
+.bordered {
+    border: 3px solid rgb(0, 59, 122);
+}

@@ -1,0 +1,10 @@
+
+function getHTMLContent(url, callback){
+    $.ajax({
+        url: url,
+        type: 'GET',
+        success: function(res) {
+            callback(res.responseText);
+        }
+    });
+}
