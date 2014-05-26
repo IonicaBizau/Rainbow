@@ -8,6 +8,13 @@ a {
     color: white;
 }
 
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -268px 0 0 -695px;
+}
+
 @font-face {
     font-family: "Kaushan Script";
     font-style: normal;
@@ -28,10 +35,10 @@ a {
 }
 
 #sun {
-    margin-left: -300px;
     position: absolute;
     height: 130px;
-    margin-top: 35px;
+    top: 35px;
+    left: 390px;
 }
 
 .circle {
